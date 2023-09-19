@@ -1,7 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Configuration de DbContext
+builder.Services.AddDbContext<JulieProDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// TODO01? : Injection des dépendances 
+//// Injection des dépendances 
+//builder.Services.AddSingleton<JulieProDbContext>(); 
 
 var app = builder.Build();
 
