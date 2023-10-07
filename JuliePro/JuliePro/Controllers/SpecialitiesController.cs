@@ -147,10 +147,20 @@ namespace JuliePro.Controllers
             var speciality = await _context.Specialities.FindAsync(id);
             if (speciality != null)
             {
-                _context.Specialities.Remove(speciality);
+                bool isSpecialityUsed = _context.Trainers.Any(t => t.SpecialityId == id);
+
+                if (isSpecialityUsed)
+                {
+                    TempData["ErrorMessage"] = "There's is at least one Trainer with that speciality.";
+                    return RedirectToAction(nameof(Delete));
+                }
+                else
+                {
+                    _context.Specialities.Remove(speciality);
+                    await _context.SaveChangesAsync();
+                }
             }
-            
-            await _context.SaveChangesAsync();
+
             return RedirectToAction(nameof(Index));
         }
 
