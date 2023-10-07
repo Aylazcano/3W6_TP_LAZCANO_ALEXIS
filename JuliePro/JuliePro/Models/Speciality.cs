@@ -4,6 +4,7 @@ namespace JuliePro.Models
 {
     public class Speciality
     {
+        [Key]
         public int Id { get; set; }
 
         [Required]

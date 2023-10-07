@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 public class Trainer
 {
+    [Key]
     public int Id { get; set; }
 
     [Required]
@@ -27,4 +28,5 @@ public class Trainer
 
     // Propriétés de navigation
     public Speciality Speciality { get; set; }
+    public ICollection<Customer>? Customers { get; set; }
 }
