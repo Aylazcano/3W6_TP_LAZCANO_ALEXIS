@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\0370102\\Desktop\\3W6_TP_LAZCANO_ALEXIS\\JuliePro\\JuliePro\\JuliePro.csproj": {}
+    "C:\\Users\\Alexi\\OneDrive\\Bureau\\3W6_TP_LAZCANO_ALEXIS\\JuliePro\\JuliePro\\JuliePro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\0370102\\Desktop\\3W6_TP_LAZCANO_ALEXIS\\JuliePro\\JuliePro\\JuliePro.csproj": {
+    "C:\\Users\\Alexi\\OneDrive\\Bureau\\3W6_TP_LAZCANO_ALEXIS\\JuliePro\\JuliePro\\JuliePro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\0370102\\Desktop\\3W6_TP_LAZCANO_ALEXIS\\JuliePro\\JuliePro\\JuliePro.csproj",
+        "projectUniqueName": "C:\\Users\\Alexi\\OneDrive\\Bureau\\3W6_TP_LAZCANO_ALEXIS\\JuliePro\\JuliePro\\JuliePro.csproj",
         "projectName": "JuliePro",
-        "projectPath": "C:\\Users\\0370102\\Desktop\\3W6_TP_LAZCANO_ALEXIS\\JuliePro\\JuliePro\\JuliePro.csproj",
-        "packagesPath": "C:\\Users\\0370102\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\0370102\\Desktop\\3W6_TP_LAZCANO_ALEXIS\\JuliePro\\JuliePro\\obj\\",
+        "projectPath": "C:\\Users\\Alexi\\OneDrive\\Bureau\\3W6_TP_LAZCANO_ALEXIS\\JuliePro\\JuliePro\\JuliePro.csproj",
+        "packagesPath": "C:\\Users\\Alexi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexi\\OneDrive\\Bureau\\3W6_TP_LAZCANO_ALEXIS\\JuliePro\\JuliePro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\0370102\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.307\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[6.0.21, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -77,24 +81,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.21, 6.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -103,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

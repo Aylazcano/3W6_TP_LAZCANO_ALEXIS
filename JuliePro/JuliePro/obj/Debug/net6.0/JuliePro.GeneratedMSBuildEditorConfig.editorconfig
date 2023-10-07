@@ -9,53 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JuliePro
 build_property.RootNamespace = JuliePro
-build_property.ProjectDir = C:\Users\0370102\Desktop\3W6_TP_LAZCANO_ALEXIS\JuliePro\JuliePro\
+build_property.ProjectDir = C:\Users\Alexi\OneDrive\Bureau\3W6_TP_LAZCANO_ALEXIS\JuliePro\JuliePro\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\0370102\Desktop\3W6_TP_LAZCANO_ALEXIS\JuliePro\JuliePro
+build_property.MSBuildProjectDirectory = C:\Users\Alexi\OneDrive\Bureau\3W6_TP_LAZCANO_ALEXIS\JuliePro\JuliePro
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/0370102/Desktop/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Home/Index.cshtml]
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/0370102/Desktop/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Home/Privacy.cshtml]
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/0370102/Desktop/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Shared/Error.cshtml]
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/0370102/Desktop/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/0370102/Desktop/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Specialities/Create.cshtml]
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Specialities/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlY2lhbGl0aWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/0370102/Desktop/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Specialities/Delete.cshtml]
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Specialities/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlY2lhbGl0aWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/0370102/Desktop/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Specialities/Edit.cshtml]
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Specialities/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlY2lhbGl0aWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/0370102/Desktop/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Specialities/Index.cshtml]
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Specialities/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlY2lhbGl0aWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/0370102/Desktop/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/_ViewImports.cshtml]
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Trainers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Trainers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Trainers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Trainers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Trainers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/0370102/Desktop/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/_ViewStart.cshtml]
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/0370102/Desktop/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Shared/_Layout.cshtml]
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4bsf6gsm6e
