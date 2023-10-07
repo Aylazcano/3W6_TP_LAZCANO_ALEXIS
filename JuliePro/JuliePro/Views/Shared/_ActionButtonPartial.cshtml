@@ -1,0 +1,32 @@
+﻿
+
+@if (ViewData["Title"] == "Create")
+{
+    <div class="form-group mt-1">
+        <button type="submit" class="btn btn-primary">
+            <i class="fa fa-plus"></i>&nbsp;Create
+        </button>
+        <a asp-action="Index" class="btn btn-light"><i class="fa-solid fa-circle-left"></i>&nbsp;Back to List</a>
+    </div>
+}
+
+@if (ViewData["Title"] == "Edit")
+{
+    <div class="form-group mt-1">
+        <button type="submit" class="btn btn-primary">
+            <i class="fa-solid fa-floppy-disk"></i>&nbsp;Save
+        </button>
+        <a asp-action="Index" class="btn btn-light"><i class="fa-solid fa-circle-left"></i>&nbsp;Back to List</a>
+    </div>
+}
+
+@if (ViewData["Title"] == "Delete")
+{
+    <div class="mt-1">
+        <button type="submit" class="btn btn-danger">
+            <i class="fa-solid fa-trash"></i>&nbsp;Delete
+        </button>
+        <a asp-action="Index" class="btn btn-light"><i class="fa-solid fa-circle-left"></i>&nbsp;Back to List</a>
+    </div>
+
+}
