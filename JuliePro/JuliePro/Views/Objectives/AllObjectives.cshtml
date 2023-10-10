@@ -1,0 +1,26 @@
+﻿@*@model TrainerObjectivesVM
+
+@{
+    ViewData["Title"] = "Objectives";
+}
+
+<h1>Objectives</h1>
+
+<div class="accordion" id="trainerAccordion">
+    @foreach (var customerObjectives in Model.Customers)
+    {
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="customerHeader_@customerObjectives.Customer.Id">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#customerCollapse_@customerObjectives.Customer.Id" aria-expanded="true" aria-controls="customerCollapse_@customerObjectives.Customer.Id">
+                    @customerObjectives.Customer.FirstName @customerObjectives.Customer.LastName - @customerObjectives.Customer.Speciality.Name
+                </button>
+            </h2>
+            <div id="customerCollapse_@customerObjectives.Customer.Id" class="accordion-collapse collapse" aria-labelledby="customerHeader_@customerObjectives.Customer.Id" data-bs-parent="#trainerAccordion">
+                <div class="accordion-body">
+                    <!-- Inclure la vue partielle CustomerObjectives ici -->
+                @await Html.PartialAsync("CustomerObjectives", customerObjectives)
+                </div>
+            </div>
+        </div>
+    }
+</div>*@
