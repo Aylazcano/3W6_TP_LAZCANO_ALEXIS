@@ -1,4 +1,4 @@
-﻿using System.Linq;
+﻿ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -18,21 +18,26 @@ namespace JuliePro.Controllers
 
         public async Task<IActionResult> AllObjectives()
         {
-            // Récupérez les données nécessaires depuis la base de données
-            var trainersWithCustomers = await _context.Trainers
+            var trainers = await _context.Trainers
                 .Include(t => t.Speciality)
-                .Include(t => t.Customers)
-                    .ThenInclude(c => c.Objectives)
                 .ToListAsync();
 
-            // Préparez les données pour le ViewModel TrainerObjectivesVM
-            var trainerObjectivesVM = trainersWithCustomers.Select(trainer => new TrainerObjectivesVM
+            var customers = await _context.Customers
+                .Include(c => c.Objectives)
+                .ToListAsync();
+
+            // Convertissez la liste des clients en une liste de CustomerObjectivesVM
+            var customerObjectivesList = customers.Select(customer => new CustomerObjectivesVM
             {
-                Customers = trainer.Customers.Select(customer => new CustomerObjectivesVM
-                {
-                    Objectives = customer.Objectives
-                })
-            });
+                Customer = customer,
+                Objectives = customer.Objectives.ToList(),
+            }).ToList();
+
+            var trainerObjectivesVM = new TrainerObjectivesVM
+            {
+                Trainers = trainers,
+                Customers = customerObjectivesList
+            };
 
             return View(trainerObjectivesVM);
         }

@@ -1,0 +1,24 @@
+﻿@model JuliePro.ViewModels.CustomerObjectivesVM
+
+
+<div id="collapse-@Model.Customer.Id" style="color:transparent"> 
+    <tr>
+        <td>@Model.Customer.FirstName @Model.Customer.LastName</td>
+        <td>@Model.Objectives.Count(o => o.AchievedDate != null)</td>
+        <td>@Model.Objectives.Count(o => o.AchievedDate == null)</td>
+        <td>
+            @if (Model.Objectives.Count(o => o.AchievedDate != null) == 0)
+            {
+                <span class="text-danger">Shouldn't have more than 1 current objective!</span>
+            }
+            else if (Model.Objectives.Count(o => o.AchievedDate != null) == 1)
+            {
+                <span class="text-success">Keep focusing on that objective!</span>
+            }
+            else if (Model.Objectives.Count(o => o.AchievedDate != null) > 1)
+            {
+                <span class="text-warning">It's time to set a new objective!</span>
+            }
+        </td>
+    </tr>
+</div>

@@ -28,12 +28,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZWN0aXZlc1xBbGxPYmplY3RpdmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Objectives/CustomerObjectives.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZWN0aXZlc1xDdXN0b21lck9iamVjdGl2ZXMuY3NodG1s
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Objectives/_CustomerObjectives.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZWN0aXZlc1xfQ3VzdG9tZXJPYmplY3RpdmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Objectives/TrainerObjectives.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZWN0aXZlc1xUcmFpbmVyT2JqZWN0aXZlcy5jc2h0bWw=
+[C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Objectives/_TrainerObjectives.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JqZWN0aXZlc1xfVHJhaW5lck9iamVjdGl2ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Alexi/OneDrive/Bureau/3W6_TP_LAZCANO_ALEXIS/JuliePro/JuliePro/Views/Shared/Error.cshtml]

@@ -1,5 +1,6 @@
 using JuliePro.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,12 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // Configuration de DbContext
-builder.Services.AddDbContext<JulieProDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<JulieProDbContext>(options => options.UseSqlServer(
+    builder.Configuration.GetConnectionString("DefaultConnection")
+    ));
 
-// TODO01? : Injection des dépendances 
-//// Injection des dépendances 
-//builder.Services.AddSingleton<JulieProDbContext>(); 
 
 var app = builder.Build();
 

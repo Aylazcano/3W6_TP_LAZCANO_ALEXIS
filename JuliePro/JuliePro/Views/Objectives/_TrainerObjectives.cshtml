@@ -1,0 +1,7 @@
+﻿@model Trainer
+
+<h2 class="accordion-header m-0" id="@Model.Id" >
+    <button class="accordion-button" type="button" data-toggle="#collapse" data-target="collapse_@Model.Id" aria-expanded="true" aria-controls="collapse_@Model.Id">
+        @Model.FirstName @Model.LastName - @Model.Speciality.Name
+    </button>
+</h2>
